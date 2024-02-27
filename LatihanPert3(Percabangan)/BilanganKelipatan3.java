@@ -18,9 +18,8 @@ public class BilanganKelipatan3 {
         double desimal = bilangan.nextDouble();
 
         int angkaDepanKoma = (int) desimal;
-        int angkaBelakangKoma = (int) ((desimal - angkaDepanKoma)*100);
+        int angkaBelakangKoma = (int) ((desimal - angkaDepanKoma));
 
-        System.out.printf("Angka Depan Koma : %d\nAngka Belakang Koma : %d\n",angkaDepanKoma, angkaBelakangKoma);
         System.out.printf("Mod Angka Depan Koma : %d\nMod Angka Belakang Koma : %d\n",angkaDepanKoma%3, angkaBelakangKoma%3);
         System.out.println("----------------------------------------------------");
         if (angkaDepanKoma % 3 == 0 && angkaBelakangKoma % 3 == 0) {
