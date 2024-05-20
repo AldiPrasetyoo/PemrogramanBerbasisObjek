@@ -14,12 +14,14 @@ public class Segitiga extends Geometris {
     public double side3;
     
     public Segitiga(){
+        super();
         this.side1 = 1.0;
         this.side2 = 1.0;
         this.side3 = 1.0;
     }
     
-    public Segitiga(double side1, double side2, double side3){
+    public Segitiga(double side1, double side2, double side3, String warna, boolean terisi){
+        super(warna, terisi);
         this.side1 = side1;
         this.side2 = side2;
         this.side3 = side3;

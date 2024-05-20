@@ -27,9 +27,7 @@ public class Pengujian {
         System.out.print("Terisi atau tidak (true/false) : ");
         boolean terisi = inputan.nextBoolean();
         
-        Segitiga segitiga = new Segitiga(side1,side2,side3);
-        segitiga.setWarna(warna);
-        segitiga.setTerisi(terisi);
+        Segitiga segitiga = new Segitiga(side1,side2,side3, warna, terisi);
         
         System.out.println("-------------------------------------------");
         System.out.println(segitiga);

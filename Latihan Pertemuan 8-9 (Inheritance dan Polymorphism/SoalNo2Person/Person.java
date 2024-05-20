@@ -9,10 +9,10 @@ package SoalNo2Person;
  * @author Aldy
  */
 public class Person {
-    private String nama;
-    private String alamat;
-    private String noTelpon;
-    private String email;
+    private final String nama;
+    private final String alamat;
+    private final String noTelpon;
+    private final String email;
     
     public Person (String nama, String alamat, String noTelpon, String email){
         this.nama = nama;
