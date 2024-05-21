@@ -52,11 +52,11 @@ public class Segitiga extends Geometris {
         this.side1 = side1;
     }
     
-    public void setSide2(double side1){
+    public void setSide2(double side2){
         this.side2 = side2;
     }
     
-    public void setSide3(double side1){
+    public void setSide3(double side3){
         this.side3 = side3;
     }
     
